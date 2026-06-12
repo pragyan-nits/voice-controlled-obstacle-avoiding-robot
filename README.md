@@ -1,6 +1,6 @@
 # 🤖 Voice-controlled-obstacle-avoiding-robot
 
-## Overview
+## 🎯 Overview
 
 This project is an Arduino-based smart robot controlled using voice commands transmitted via Bluetooth.
 
