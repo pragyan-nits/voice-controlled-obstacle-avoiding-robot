@@ -160,6 +160,10 @@ void loop()
   }
 }
 
+// =====================
+// DISTANCE FUNCTION
+// =====================
+
 int frontDistance()
 {
   digitalWrite(trigPin, LOW);
@@ -178,6 +182,11 @@ int frontDistance()
   return duration * 0.034 / 2;
 }
 
+// =====================
+// BUZZER
+// =====================
+
+
 void beep()
 {
   digitalWrite(BUZZER, HIGH);
@@ -192,7 +201,9 @@ void longBeep()
   digitalWrite(BUZZER, LOW);
 }
 
-// Corrected directions for your robot
+// =====================
+// MOTOR FUNCTIONS
+// =====================
 
 void forward()
 {
