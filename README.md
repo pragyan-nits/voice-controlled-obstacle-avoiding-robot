@@ -1,4 +1,4 @@
-# voice-controlled-obstacle-avoiding-robot
+# Voice-controlled-obstacle-avoiding-robot
 
 ## Overview
 
@@ -23,7 +23,7 @@ The robot continuously monitors its surroundings and automatically prevents coll
 
 ## Components Used
 
-- Arduino Uno
+- Arduino UNO
 - HC-05 Bluetooth Module
 - HC-SR04 Ultrasonic Sensor
 - SG90 Servo Motor
@@ -31,8 +31,6 @@ The robot continuously monitors its surroundings and automatically prevents coll
 - L298N Motor Driver
 - Active Buzzer
 - BO Motors
-- Robot Chassis
-- Battery Pack
 
 ---
 
@@ -60,7 +58,7 @@ If an object is detected within the safety range, the robot stops and alerts the
 
 The IR sensor monitors the rear side of the robot.
 
-If an obstacle is detected while reversing, the robot immediately stops and activates the buzzer.
+If an obstacle is detected while reversing, the robot immediately stops and activates the buzzer for some time.
 
 ---
 
@@ -82,6 +80,15 @@ If an obstacle is detected while reversing, the robot immediately stops and acti
 | Ultrasonic Echo | A0 |
 | Ultrasonic Trigger | A1 |
 
+## Power Connections 
+
+| From | To |
+|------|----|
+| Battery (+) | L298N 12V Terminal |
+| Battery (-) | L298N GND Terminal |
+| L298N GND, HC-05 GND, HC-SR04 GND, Servo GND, IR Sensor GND, Buzzer GND | Arduino Uno GND |
+| HC-05 VCC, HC-SR04 VCC, Servo VCC, IR Sensor VCC, Buzzer VCC | Arduino Uno 5V |
+| L298N 5V | Arduino Uno 5V |
 ---
 
 ## Applications
