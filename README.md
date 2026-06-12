@@ -1,4 +1,4 @@
-# Voice-controlled-obstacle-avoiding-robot
+# 🤖 Voice-controlled-obstacle-avoiding-robot
 
 ## Overview
 
@@ -8,20 +8,20 @@ The robot continuously monitors its surroundings and automatically prevents coll
 
 ---
 
-## Features
+## 🌟 Features
 
-- Voice control using smartphone
-- Bluetooth communication with HC-05
-- Forward, backward, left and right movement
-- Front obstacle detection using ultrasonic sensor
-- Rear obstacle detection using IR sensor
-- Buzzer warning system
-- Collision prevention during operation
-- L298N motor control
+ - ✅ Voice control using smartphone
+-  ✅ Bluetooth communication with HC-05
+-  ✅Forward, backward, left and right movement
+ - ✅Front obstacle detection using ultrasonic sensor
+-  ✅ Rear obstacle detection using IR sensor
+ - ✅ Buzzer warning system
+ - ✅ Collision prevention during operation
+ - ✅ L298N motor control
 
 ---
 
-## Components Used
+## ⚙️ Components Used
 
 - Arduino UNO
 - HC-05 Bluetooth Module
@@ -34,7 +34,7 @@ The robot continuously monitors its surroundings and automatically prevents coll
 
 ---
 
-## Working Principle
+## 🪛 Working Principle
 
 The robot receives voice commands from a smartphone through Bluetooth.
 
@@ -62,7 +62,7 @@ If an obstacle is detected while reversing, the robot immediately stops and acti
 
 ---
 
-## Pin Configuration
+## 📌 Pin Configuration
 
 | Component | Arduino Pin |
 |------------|------------|
@@ -80,7 +80,7 @@ If an obstacle is detected while reversing, the robot immediately stops and acti
 | Ultrasonic Echo | A0 |
 | Ultrasonic Trigger | A1 |
 
-## Power Connections 
+## 🔋 Power Connections 
 
 | From | To |
 |------|----|
@@ -91,7 +91,7 @@ If an obstacle is detected while reversing, the robot immediately stops and acti
 | L298N 5V | Arduino Uno 5V |
 ---
 
-## Applications
+## 🈸 Applications
 
 - Robotics Learning
 - Educational Projects
